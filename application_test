@@ -1,0 +1,213 @@
+Netlist
+
+Exported from application.sch at 03/06/27 15:25
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net       Part     Pad      Pin        Sheet
+
++3V3      C1       1        1          1
+          C2       1        1          1
+          C4       1        1          1
+          C6       1        1          1
+          IC1      2        OUT_1      1
+          IC1      4        OUT_2      1
+          J1       4        VDD        1
+          JP1      2        2          1
+          R10      2        2          1
+          R11      2        2          1
+          R12      2        2          1
+          R13      2        2          1
+          R14      2        2          1
+          R4       2        2          1
+          R5       2        2          1
+          R6       2        2          1
+          R7       2        2          1
+          R8       2        2          1
+          R9       2        2          1
+          U1       2        3V3        1
+          X1_I2C   4        1          1
+
+DGND      C1       2        2          1
+          C2       2        2          1
+          C3       2        2          1
+          C4       2        2          1
+          C6       2        2          1
+          C7       2        2          1
+          C8       2        2          1
+          C9       2        2          1
+          IC1      1        GND        1
+          J1       6        VSS        1
+          J1       MP1      MP1        1
+          J1       MP2      MP2        1
+          J1       MP3      MP3        1
+          J1       MP4      MP4        1
+          J1       MP5      MP5        1
+          JP1      1        1          1
+          JP2      1        1          1
+          JP3      1        1          1
+          PWR_OUT  1        1          1
+          Q1       2        S          1
+          S1       1        O          1
+          S2       3        P          1
+          S2       4        P1         1
+          S3       3        P          1
+          S3       4        P1         1
+          SJ1      2        2          1
+          U$2      P$1      1          1
+          U$2      P$2      2          1
+          U$2      P$5      5          1
+          U$2      P$6      6          1
+          U1       1        GND        1
+          U1       15       GND        1
+          U1       38       GND        1
+          X1_I2C   1        1          1
+
+EN        C7       1        1          1
+          JP1      3        3          1
+          R11      1        1          1
+          U$2      P$3      3          1
+          U$2      P$4      4          1
+          U1       3        EN         1
+
+GND       C5       2        2          1
+          PWR_IN   2        2          1
+          Q1       3        D          1
+          R2       1        1          1
+          R3       1        1          1
+          SJ1      1        1          1
+          U$1      4        GND        1
+          U$1      5        CAP        1
+          U1       GND      GND        1
+
+IO0       JP2      12       12         1
+          S1       2        P          1
+          U1       25       IO0        1
+
+IO5       JP2      9        9          1
+          SJ3      1        1          1
+          U1       29       IO5        1
+
+IO12      JP2      13       13         1
+
+IO14      JP1      13       13         1
+
+IO16      JP2      11       11         1
+          SJ2      2        2          1
+          U1       27       IO16       1
+
+IO17      JP2      10       10         1
+          SJ4      1        1          1
+          U1       28       IO17       1
+
+IO18      JP2      8        8          1
+          U1       30       IO18       1
+
+IO19      JP2      7        7          1
+          U1       31       IO19       1
+
+IO23      JP2      2        2          1
+          U1       37       IO23       1
+
+IO25      JP1      10       10         1
+          U1       10       IO25       1
+
+IO26      JP1      11       11         1
+          U1       11       IO26       1
+
+IO27      JP1      12       12         1
+          U1       12       IO27       1
+
+IO32      JP1      8        8          1
+          U1       8        IO32       1
+
+IO33      JP1      9        9          1
+          U1       9        IO33       1
+
+IO34      JP1      6        6          1
+          U1       6        IO34       1
+
+IO35      JP1      7        7          1
+          U1       7        IO35       1
+
+N$1       R1       1        1          1
+          R2       2        2          1
+          R3       2        2          1
+          U$1      2        VIN        1
+
+N$2       C8       1        1          1
+          R13      1        1          1
+          S2       1        S          1
+          S2       2        S1         1
+          SJ3      2        2          1
+
+N$3       C9       1        1          1
+          R14      1        1          1
+          S3       1        S          1
+          S3       2        S1         1
+          SJ4      2        2          1
+
+N$4       R12      1        1          1
+          S1       3        S          1
+
+RESET     Q1       1        G          1
+          R4       1        1          1
+          U$1      6        OUT        1
+
+RX        JP2      5        5          1
+          JP3      2        2          1
+          U1       34       RXD0       1
+
+SCL       JP2      3        3          1
+          U1       36       IO22       1
+          X1_I2C   2        1          1
+
+SDA       JP2      6        6          1
+          U1       33       IO21       1
+          X1_I2C   3        1          1
+
+SD_CLK    J1       5        CLK        1
+          R9       1        1          1
+          U1       13       IO14       1
+
+SD_CMD    J1       3        CMD        1
+          R8       1        1          1
+          U1       23       IO15       1
+
+SD_DAT0   J1       7        DAT0       1
+          R10      1        1          1
+          U1       24       IO2        1
+
+SD_DAT1   J1       8        DAT1       1
+          U1       26       IO4        1
+
+SD_DAT2   J1       1        DAT2       1
+          R6       1        1          1
+          U1       14       IO12       1
+
+SD_DAT3   J1       2        CD/DAT3    1
+          R7       1        1          1
+          U1       16       IO13       1
+
+SD_DETECT J1       CD1      CARD_DETECT 1
+          R5       1        1          1
+          SJ2      1        1          1
+
+SENSOR_VN JP1      5        5          1
+          U1       5        SENSOR_VN  1
+
+SENSOR_VP JP1      4        4          1
+          U1       4        SENSOR_VP  1
+
+TX        JP2      4        4          1
+          JP3      3        3          1
+          U1       35       TXD0       1
+
+V+        C3       1        1          1
+          C5       1        1          1
+          IC1      3        IN         1
+          PWR_IN   1        1          1
+          PWR_OUT  2        2          1
+          R1       2        2          1
+          U$1      7        PWR        1
+
